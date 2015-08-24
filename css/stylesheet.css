@@ -1,0 +1,114 @@
+* {
+  font-family: "ryo-text-plusn","bookmania",serif;
+}
+
+section {
+  padding: 15px 0px 20px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+section:first-of-type {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 0px;
+  margin-right: 0px;
+  border-bottom: none;
+}
+
+section:last-of-type {
+  border-bottom: none;
+}
+
+#top-message {
+  margin-top: 50px;
+}
+
+.navbar {
+  border-radius: 0;
+  padding-left: 5px;
+}
+
+.navbar-default {
+  border: none;
+  background-color: #111111;
+  color: #FFFFFF;
+}
+
+.jumbotron {
+  min-height: 500px;
+
+  color: #fff;
+  background-color: #CCCCCC;
+  background-image: url(../img/iloli_top_sm.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .jumbotron {
+    background-image: url(../img/iloli_top_lg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.brand-title {
+  font-family: "daniel",cursive;
+  font-weight: bold;
+}
+
+.top-msg-header {
+  font-family: "kazuraki-sp2n",serif;
+  margin-bottom: 20px
+}
+
+.top-msg-contents {
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.corp-logo {
+  height: 60px;
+  width: 60px;
+}
+
+.section-title {
+  text-align: center;
+}
+
+.section-subtitle {
+  text-align: center;
+}
+
+.footer {
+  background-color: #111111;
+  color: #FFFFFF;
+
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+.footer a:link {
+  color: #FFFFFF;
+}
+.footer a:visited {
+  color: #FFFFFF;
+}
+.footer a:hover {
+  color: #FFFFFF;
+}
+
+.footer-nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.footer-credit {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
