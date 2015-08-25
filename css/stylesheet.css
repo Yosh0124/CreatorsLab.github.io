@@ -3,9 +3,12 @@
 }
 
 p, .form-notice li {
-  letter-spacing: .07em;
+  line-height: 1.75em;
+  letter-spacing: .045em;
 }
-
+.caption h3 {
+  line-height: 1.5em;
+}
 section {
   padding: 15px 0px 20px;
   margin-left: 15px;
