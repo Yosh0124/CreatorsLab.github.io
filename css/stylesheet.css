@@ -119,3 +119,10 @@ section:last-of-type {
   padding-top: 10px;
   padding-bottom: 10px;
 }
+
+
+@media (min-width:768px){
+  .navbar-right {
+    margin-right: 0;
+  }
+}
