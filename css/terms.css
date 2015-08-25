@@ -1,0 +1,81 @@
+@charset "UTF-8";
+/* =========================================== */
+/* ========== スマートフォンレイアウト 480px以下 ========== */
+/* ========================================== */
+
+/* ===== header ===== */
+header {
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  background-color: #fe417f;
+  color: #ffffff;
+  border-bottom: 3px solid #ffffff;
+}
+header a {
+  text-decoration: none;
+  color: #ffffff;
+}
+#terms {
+  padding: 50px 0;
+  background-color: #dddddd;
+}
+#terms h2 {
+  font-size: 20px;
+  color: #333333;
+  padding: 0 0 50px 0;
+}
+#terms .inner {
+  margin: 0 15px;
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  text-align: justify;
+}
+#terms h3 {
+  font-size: 16px;
+  margin: 0 0 20px 0;
+}
+#terms .p_box {
+  margin: 0 0 50px 0;
+}
+#terms .p_box:last-child {
+  margin: 0 0 25px 0;
+}
+#terms p {
+  line-height: 1.5;
+}
+#terms ol {
+  margin: 20px 0 0 0;
+  padding: 0 0 0 20px;
+}
+#terms ol li {
+  line-height: 1.5;
+  margin: 0 0 10px 0;
+}
+
+/* ============================================= */
+/*  ========== タブレットレイアウト 481px to 768px  ========== */
+/* ============================================ */
+
+@media only screen and (min-width: 481px) {
+#terms h2 {
+  font-size: 24px;
+}
+#terms .inner {
+  margin: 0 20px;
+  padding: 40px;
+}
+}
+
+/* ==================================================== */
+/*  ========== デスクトップレイアウト 769px to a max of 1232px ========== */
+/* =================================================== */
+
+@media only screen and (min-width: 900px) {
+#terms .inner {
+  width: 740px;
+  margin: 0 auto;
+  padding: 50px;
+}
+}
