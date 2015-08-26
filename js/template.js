@@ -65,7 +65,7 @@ function footer(){
     html +='<div class="col-sm-4"><a href="https://docs.google.com/forms/d/1jXNnrTf5IUhFlovefWSTonEIExJvdZVld7nfWpY9tI8/viewform" target=”_blank”>お問い合わせ</a></div>';
     html +='</div>';
     html +='<div class="text-center footer-credit">';
-    html +='<p>Produced by <a href="http://creatorslab.jp"><img src="img/cl_logo.png" alt="Creator \'s Lab. Logo" class="corp-logo" /></a></p>';
+    html +='<p>Produced by <a href="http://creatorslab.jp" target=”_blank”><img src="img/cl_logo.png" alt="Creator \'s Lab. Logo" class="corp-logo" /></a></p>';
     html +='</div>';
     html +='</footer>';
 
