@@ -18,7 +18,7 @@ function header(){
     html +='<ul class="nav navbar-nav">';
     html +='<li><a href="#whats">iloliとは</a></li>';
     html +='</ul>';
-    html +='<a class="btn btn-success navbar-btn" href="https://docs.google.com/forms/d/1jXNnrTf5IUhFlovefWSTonEIExJvdZVld7nfWpY9tI8/viewform" role="button" target=”_blank”>お問い合わせ</a>';
+    html +='<a class="btn btn-default navbar-btn" href="https://docs.google.com/forms/d/1jXNnrTf5IUhFlovefWSTonEIExJvdZVld7nfWpY9tI8/viewform" role="button" target=”_blank”>お問い合わせ</a>';
     html +='</div>';
     html +='</div><!-- /.navbar-collapse -->';
     html +='</div><!-- /.container-fluid -->';
