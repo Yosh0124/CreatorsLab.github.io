@@ -47,7 +47,7 @@ function footer(){
         <div class="col-sm-4"><a href="https://docs.google.com/forms/d/1jXNnrTf5IUhFlovefWSTonEIExJvdZVld7nfWpY9tI8/viewform">お問い合わせ</a></div>
       </div>
       <div class="text-center footer-credit">
-        <p>Produced by <a href="http://creatorslab.jp"><img src="img/cl_logo.png" alt="Creator's Lab. Logo" class="corp-logo" /></a></p>
+        <p>Produced by <a href="http://creatorslab.jp" target=”_blank”><img src="img/cl_logo.png" alt="Creator \'s Lab. Logo" class="corp-logo" /></a></p>
       </div>
     </footer>
 
