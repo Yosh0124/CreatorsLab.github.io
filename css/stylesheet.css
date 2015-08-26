@@ -1,3 +1,4 @@
+/* ----- 共通 ----- */
 body {
   font-family: "ryo-text-plusn","bookmania",serif;
 }
@@ -77,6 +78,12 @@ section:last-of-type {
     background-repeat: no-repeat;
     background-size: cover;
   }
+}
+
+.btn-default {
+  color: #FFFFFF;
+  background-color: #F15B40;
+  border-color: #F15B40;
 }
 
 .brand-title {
