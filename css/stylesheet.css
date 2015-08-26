@@ -1,4 +1,4 @@
-* {
+body {
   font-family: "ryo-text-plusn","bookmania",serif;
 }
 
@@ -6,9 +6,11 @@ p, .form-notice li {
   line-height: 1.75em;
   letter-spacing: .045em;
 }
+
 .caption h3 {
   line-height: 1.5em;
 }
+
 section {
   padding: 15px 0px 20px;
   margin-left: 15px;
@@ -41,6 +43,18 @@ section:last-of-type {
   border: none;
   background-color: #111111;
   color: #FFFFFF;
+}
+
+.navbar .brand-title {
+  color: #F15B40;
+}
+
+.navbar .brand-title:hover {
+  color: #993929;
+}
+
+.top-msg-header {
+  text-shadow: 0 0 1px rgba(255, 255, 255, 75);
 }
 
 .jumbotron {
