@@ -18,7 +18,7 @@ function header(){
     html +='<ul class="nav navbar-nav">';
     html +='<li><a href="#whats">iloliとは</a></li>';
     html +='</ul>';
-    html +='<a class="btn btn-success navbar-btn" href="https://docs.google.com/forms/d/1jXNnrTf5IUhFlovefWSTonEIExJvdZVld7nfWpY9tI8/viewform" role="button">お問い合わせ</a>';
+    html +='<a class="btn btn-success navbar-btn" href="https://docs.google.com/forms/d/1jXNnrTf5IUhFlovefWSTonEIExJvdZVld7nfWpY9tI8/viewform" role="button" target=”_blank”>お問い合わせ</a>';
     html +='</div>';
     html +='</div><!-- /.navbar-collapse -->';
     html +='</div><!-- /.container-fluid -->';
@@ -62,7 +62,7 @@ function footer(){
     html +='<div class="row text-center footer-nav">';
     html +='<div class="col-sm-4"><a href="terms.html">利用規約</a></div>';
     html +='<div class="col-sm-4"><a href="privacy.html">プライバシーポリシー</a></div>';
-    html +='<div class="col-sm-4"><a href="https://docs.google.com/forms/d/1jXNnrTf5IUhFlovefWSTonEIExJvdZVld7nfWpY9tI8/viewform">お問い合わせ</a></div>';
+    html +='<div class="col-sm-4"><a href="https://docs.google.com/forms/d/1jXNnrTf5IUhFlovefWSTonEIExJvdZVld7nfWpY9tI8/viewform" target=”_blank”>お問い合わせ</a></div>';
     html +='</div>';
     html +='<div class="text-center footer-credit">';
     html +='<p>Produced by <a href="http://creatorslab.jp"><img src="img/cl_logo.png" alt="Creator \'s Lab. Logo" class="corp-logo" /></a></p>';
