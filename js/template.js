@@ -46,7 +46,7 @@ function header(){
             <ul class="nav navbar-nav">
               <li><a href="#whats">iloliとは</a></li>
             </ul>
-            <a href="https://docs.google.com/forms/d/1jXNnrTf5IUhFlovefWSTonEIExJvdZVld7nfWpY9tI8/viewform" target=”_blank”><button type="button" class="btn btn-success navbar-btn">お問い合わせ</button></a>
+            <a href="https://docs.google.com/forms/d/1jXNnrTf5IUhFlovefWSTonEIExJvdZVld7nfWpY9tI8/viewform" target=”_blank”><button type="button" class="btn btn-default navbar-btn">お問い合わせ</button></a>
           </div>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
