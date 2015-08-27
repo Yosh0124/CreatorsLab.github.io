@@ -47,11 +47,11 @@ section:last-of-type {
   color: #FFFFFF;
 }
 
-.navbar .brand-title {
+.navbar .navbar-brand {
   color: #F15B40;
 }
 
-.navbar .brand-title:hover {
+.navbar .navbar-brand:hover {
   color: #993929;
 }
 
@@ -99,7 +99,7 @@ section:last-of-type {
   color: #fff !important;
 }
 
-.btn-default:active {
+.btn-default:hover {
   top: 2px;
   box-shadow: none;
   background-color: #F15B40 !important;

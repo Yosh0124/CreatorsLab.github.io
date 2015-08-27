@@ -19,7 +19,7 @@ function header(){
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <div class="navbar-right">
             <ul class="nav navbar-nav">
-              <li><a href="#whats">iloliとは</a></li>
+     <li><a href="#whats"><span class="brand-title">iloli</span>とは</a></li>
             </ul>
             <a href="https://docs.google.com/forms/d/1jXNnrTf5IUhFlovefWSTonEIExJvdZVld7nfWpY9tI8/viewform" target=”_blank" onclick="ga('send', 'event', 'services', 'click', 'お問い合わせ');"><button type="button" class="btn btn-default navbar-btn">お問い合わせ</button></a>
           </div>
