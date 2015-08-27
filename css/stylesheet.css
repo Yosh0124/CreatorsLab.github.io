@@ -1,6 +1,6 @@
 /* ----- 共通 ----- */
 body {
-  font-family: "ryo-text-plusn","bookmania",serif;
+  font-family: "ryo-text-plusn", "bookmania", serif;
 }
 
 p, .form-notice li {
@@ -70,16 +70,6 @@ section:last-of-type {
   background-attachment: fixed;
 }
 
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  .jumbotron {
-    background-image: url(../img/iloli_top_lg.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-}
-
 .btn-default {
   color: #FFFFFF;
   background-color: #F15B40;
@@ -87,12 +77,12 @@ section:last-of-type {
 }
 
 .brand-title {
-  font-family: "daniel",cursive;
+  font-family: "daniel", cursive;
   font-weight: bold;
 }
 
 .top-msg-header {
-  font-family: "kazuraki-sp2n",serif;
+  font-family: "kazuraki-sp2n", serif;
   margin-bottom: 20px
 }
 
@@ -112,8 +102,24 @@ section:last-of-type {
 
 .section-subtitle {
   text-align: center;
+  margin-top: 20px;
 }
 
+.section-contents {
+  margin-top: 30px;
+}
+
+.thumbnail {
+  padding: 5px;
+}
+
+.thumbnail img {
+  margin-top: 10px;
+}
+
+.contact {
+  margin-top: 20px;
+}
 .footer {
   background-color: #111111;
   color: #FFFFFF;
@@ -141,9 +147,54 @@ section:last-of-type {
   padding-bottom: 10px;
 }
 
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .jumbotron {
+    background-image: url(../img/iloli_top_lg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
 
-@media (min-width:768px){
+@media (min-width: 768px) {
   .navbar-right {
     margin-right: 0;
+  }
+}
+
+/* BURUBURU CL */
+
+.corp-logo:hover {
+  animation: brbr 0.12s linear infinite;
+}
+
+@keyframes brbr {
+  0% {
+    transform: rotate(0deg) translate(0, 0);
+  }
+  12.5% {
+    transform: rotate(0.2deg) translate(1px, -1px);
+  }
+  25% {
+    transform: rotate(0.4deg) translate(0px, 1px);
+  }
+  37.5% {
+    transform: rotate(0.2deg) translate(-1px, 0);
+  }
+  50% {
+    transform: rotate(0deg) translate(0, 0);
+  }
+  62.5% {
+    transform: rotate(-0.2deg) translate(1px, 0);
+  }
+  75% {
+    transform: rotate(-0.4deg) translate(0, 1px);
+  }
+  87.5% {
+    transform: rotate(-0.2deg) translate(-1px, -1px);
+  }
+  100% {
+    transform: rotate(0deg) translate(0, 0);
   }
 }
