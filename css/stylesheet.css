@@ -88,12 +88,12 @@ section:last-of-type {
   /*line-height: 52px;*/
   -webkit-transition: none;
   transition: none;
-  box-shadow: 0 4px 0 #7a3625;
+  box-shadow: 0 3px 0 #7a3625;
   text-shadow: 0 1px 1px rgba(0, 0, 0, .4);
 }
 
 .btn-default:hover {
-  top: -1px;
+  top: -2px;
   box-shadow: 0 5px 0 #7a3625;
   background-color: #F15B40 !important;
   color: #fff !important;
@@ -105,22 +105,6 @@ section:last-of-type {
   background-color: #F15B40 !important;
   color: #fff !important;
 }
-
-.navbar-right .btn-default {
-  box-shadow: 0 2px 0 #7a3625;
-}
-
-.navbar-right .btn-default:hover {
-  top: -1px;
-  box-shadow: 0 3px 0 #7a3625;
-}
-
-.navbar-right .btn-default:active {
-  top: 1px;
-  box-shadow: none;
-}
-
-
 
 .brand-title {
   font-family: "daniel", cursive;
