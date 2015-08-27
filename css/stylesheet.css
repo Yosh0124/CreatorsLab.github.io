@@ -93,17 +93,8 @@ section:last-of-type {
 }
 
 .btn-default:hover {
-  top: -2px;
-  box-shadow: 0 5px 0 #7a3625;
-  background-color: #F15B40 !important;
-  color: #fff !important;
-}
-
-.btn-default:hover {
-  top: 2px;
+  top: 3px;
   box-shadow: none;
-  background-color: #F15B40 !important;
-  color: #fff !important;
 }
 
 .brand-title {
