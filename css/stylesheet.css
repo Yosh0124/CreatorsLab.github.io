@@ -184,6 +184,11 @@ section:last-of-type {
   }
 }
 
+/* FB SHAREボタンの位置補正 */
+.fb_iframe_widget > span {
+  vertical-align: baseline !important;
+}
+
 /* BURUBURU CL */
 
 .corp-logo:hover {
