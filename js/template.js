@@ -39,6 +39,9 @@ function footer(){
 
     <!-- Footer -->
     <footer class="footer container-fluid">
+      <div class="row text-center">
+        <div class="col-sm-6"><div class="fb-like"></div></div>
+      </div>
       <div class="row text-center footer-nav">
         <div class="col-sm-4"><a href="terms.html">利用規約</a></div>
         <div class="col-sm-4"><a href="privacy.html">プライバシーポリシー</a></div>
