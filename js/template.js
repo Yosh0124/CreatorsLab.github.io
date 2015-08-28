@@ -39,9 +39,9 @@ function footer(){
 
     <!-- Footer -->
     <footer class="footer container-fluid">
-      <div class="row text-center">
-        <div class="col-sm-6"><div class="fb-like"></div></div>
-      </div>
+      <p class="text-center">
+        <div class="fb-share-button" data-href="http://iloli.co/" data-layout="button_count"></div>
+      </p>
       <div class="row text-center footer-nav">
         <div class="col-sm-4"><a href="terms.html">利用規約</a></div>
         <div class="col-sm-4"><a href="privacy.html">プライバシーポリシー</a></div>
