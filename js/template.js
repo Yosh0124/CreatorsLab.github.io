@@ -39,9 +39,15 @@ function footer(){
 
     <!-- Footer -->
     <footer class="footer container-fluid">
-      <p class="text-center">
-        <div class="fb-share-button" data-href="http://iloli.co/" data-layout="button_count"></div>
-      </p>
+      <div class="text-center">
+        <p>
+          <!-- Facebook Share -->
+          <div class="fb-share-button" data-href="http://iloli.co/" data-layout="button_count"></div>
+          <!-- Twitter Share -->
+          <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://iloli.co/" data-via="creators_lab_jp" data-hashtags="iloli">Tweet</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        </p>
+      </div>
       <div class="row text-center footer-nav">
         <div class="col-sm-4"><a href="terms.html">利用規約</a></div>
         <div class="col-sm-4"><a href="privacy.html">プライバシーポリシー</a></div>
